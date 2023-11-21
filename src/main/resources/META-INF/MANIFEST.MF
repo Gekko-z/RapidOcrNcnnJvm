@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Main-Class: com.benjaminwan.ocr.MainKt
+Main-Class: com.benjaminwan.ocr.Main
 Class-Path: annotations-13.0.jar kotlin-stdlib-1.6.0.jar kotlin-stdlib-c
  ommon-1.6.0.jar kotlin-stdlib-jdk7-1.6.0.jar kotlin-stdlib-jdk8-1.6.0.j
  ar
