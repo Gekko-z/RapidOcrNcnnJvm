@@ -36,7 +36,7 @@
 
 * 编辑运行参数：顶部工具栏“运行”图标左边，点开下拉菜单“Edit Configurations”
 * VM options:添加```-Djava.library.path=run-test```，把run-test文件夹加到java的lib搜索路径
-* Program arguments:添加``run-test/models dbnet_op angle_op crnn_lite_op keys.txt run-test/test_imgs/1.jpg```，添加命令行输入参数
+* Program arguments:添加``run-test/models ch_PP-OCRv3_det_infer ch_ppocr_mobile_v2.0_cls_infer ch_PP-OCRv3_rec_infer keys.txt run-test/images/1.jpg```，添加命令行输入参数
 * 命令行参数models文件夹里必须有相应的模型文件，接下来的四个文件名对应模型文件夹里的3种模型(不含扩展名)和1个keys文件，请确认文件名无误
 * run-test/images/1.jpg是待识别的目标图片
 * 点击运行，正常的话就可以输出识别结果。
